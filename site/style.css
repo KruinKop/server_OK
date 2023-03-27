@@ -1,0 +1,19 @@
+/* drie basisstijlregels om je te helpen */
+:root {font-size: 100%;  /* zet je dit op 62.5%, dan is elke rem 10px waard, anders 16px */ }
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+/* hier komt jouw css */
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div{
+    padding: 5rem;
+}
+
+li{
+    margin-top: 2rem;
+}
